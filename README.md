@@ -1,12 +1,29 @@
 # Compilador <br>
 
-Opciones a implementar (obligatorio): <br>
-  Sentencias: Sentencia repetitiva (do-while) <br>
-  Técnicas de Análisis Sintáctico: Descendente con tablas <br>
-  Operadores especiales: Asignación con o lógico (|=) <br>
-  Comentarios: Comentario de línea (//) <br>
-  Cadenas: Con comillas simples (' ') <br>
-Operadores:<br>
-  Aritméticos: + <br>
-  Relacionales: < <br>
-  Lógicos: ! <br>
+# Opciones a implementar (obligatorio)
+
+## Sentencias
+- **Sentencia repetitiva:** `do-while`
+
+## Técnicas de análisis sintáctico
+- **Tipo:** Descendente con tablas
+
+## Operadores especiales
+- **Asignación con OR lógico:** `|=`
+
+## Comentarios
+- **Tipo:** Comentario de línea `//`
+
+## Cadenas
+- **Delimitador:** Comillas simples `' '`
+
+## Operadores
+
+### Aritméticos
+- `+`
+
+### Relacionales
+- `<`
+
+### Lógicos
+- `!`
