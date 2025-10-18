@@ -6,7 +6,7 @@
 - **Sentencia repetitiva:** `do-while`
 
 ## Técnicas de análisis sintáctico
-- **Tipo:** Descendente con tablas
+- **Tipo:** Descendente Recursivo
 
 ## Operadores especiales
 - **Asignación con OR lógico:** `|=`
