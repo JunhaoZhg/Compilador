@@ -7,4 +7,4 @@ class LexError:
         self.message = message
 
     def __str__(self) -> str:
-        return f"[LÉXICO] Línea {self.line}, Columna {self.column}: {self.message}"
+        return f"ERROR LÉXICO (Línea {self.line}, Columna {self.column}): {self.message}"
