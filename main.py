@@ -2,6 +2,8 @@ import os
 from Analizador_Lexico.an_lexico import Lexer
 from Tabla_Simbolos.symbol_table import SymbolTable
 
+
+
 def procesar_archivo(filepath):
     nombre_archivo = os.path.basename(filepath)
     nombre_sin_ext, _ = os.path.splitext(nombre_archivo)
@@ -74,3 +76,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
