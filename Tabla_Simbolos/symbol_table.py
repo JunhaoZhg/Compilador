@@ -17,7 +17,7 @@ class SymbolTable:
         self.desplazamiento_actual = 0
         self.locales = {}  
 
-    # ---------- utils ----------
+    
     def _alloc_offset(self, tipo: str) -> int:
         sz = TYPE_SIZE.get(tipo, 2)
         off = self.desplazamiento_actual
@@ -58,7 +58,7 @@ class SymbolTable:
             ent.desplazamiento = self._alloc_offset(tipo)
 
     def update_value(self, lexema, valor):
-        """No-op: se mantiene por compatibilidad con el lexer."""
+       
         return
 
     # ---------- funciones y locales ----------
